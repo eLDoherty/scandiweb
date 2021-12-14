@@ -1,0 +1,15 @@
+.container {
+    padding: 0 200px;
+}
+h2 {
+    font-size: 48px;
+    font-family: $font-family-primary;
+    color: $primary-black;
+}
+button {
+    padding: 10px 20px;
+    font-size: 20Px;
+    font-family: $font-family-secondary;
+    border: none;
+    border-radius: 10px;
+}

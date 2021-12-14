@@ -7,10 +7,10 @@
     <title>Scandiweb</title>
     <link rel="stylesheet" href="public/css/app.css">
 </head>
-
 <body>
-<?php include 'public/template-part/header-home.php'; ?>
-<?php include 'public/template-part/product-list.php'; ?>
-<?php include 'public/template-part/footer.php'; ?> 
+<?php include 'public/template-part/header-add.php'; ?>
+<?php include 'public/template-part/product-form.php'; ?>
+<?php include 'public/template-part/footer.php'; ?>
+<script src="public/js/addProduct.js"></script>
 </body>
 </html>

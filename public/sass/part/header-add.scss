@@ -1,0 +1,22 @@
+.container {
+    .header-add {
+        border-bottom: 2px solid $primary-black;
+        height: 120px;
+        .navbar-add {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .navbar-right {
+            .save-button {
+                background-color: $color-green;
+                color: white;
+            }
+            .cancel-button {
+                background-color: $color-red;
+                color: white;
+            }
+            }
+        }
+    }
+}

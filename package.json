@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass public/sass/app.scss public/css/app.css",
+    "sass": "node-sass public/sass/app.scss public/css/app.css",
     "watch:sass": "nodemon -e scss -x \"npm run compile:sass\""
   },
   "author": "",

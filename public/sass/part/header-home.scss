@@ -1,0 +1,20 @@
+header.header-home {
+    border-bottom: 2px solid $primary-black;
+    height: 120px;
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        &-right {
+           .add-button {
+               background-color: $color-green;
+               color: white;
+           }
+           .mass-delete-button {
+               background-color: $color-red;
+               color: white;
+           }
+        }
+    }
+}

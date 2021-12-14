@@ -1,3 +1,10 @@
-body {
-    margin: 0;
-}
+// Variable and another global scss
+@import 'main/variable.scss';
+@import 'main/global.scss';
+
+// Part
+@import 'part/header-home.scss';
+@import 'part/header-add.scss';
+@import 'part/footer.scss';
+@import 'part/product-list.scss';
+@import 'part/product-form.scss';
