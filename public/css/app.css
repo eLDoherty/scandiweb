@@ -46,12 +46,7 @@ header.header-home {
 
 footer {
   text-align: center;
-  margin-top: 200px;
-  position: absolute;
-  width: 70%;
-  right: 50%;
-  bottom: 0;
-  transform: translate(50%, -50%); }
+  margin-top: 200px; }
   footer .footer-credit {
     border-top: 2px solid #000000; }
     footer .footer-credit p {

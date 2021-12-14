@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scandiweb</title>
-    <link rel="stylesheet" href="public/css/app.css">
+    <link rel="stylesheet" href="../public/css/app.css">
 </head>
 
 <body>
-<?php include 'public/template-part/header-home.php'; ?>
-<?php include 'public/template-part/product-list.php'; ?>
-<?php include 'public/template-part/footer.php'; ?> 
+<?php include '../public/template-part/header-home.php'; ?>
+<?php include '../public/template-part/product-list.php'; ?>
+<?php include '../public/template-part/footer.php'; ?> 
 </body>
 </html>
