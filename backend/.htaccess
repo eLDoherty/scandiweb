@@ -1,0 +1,4 @@
+# Block User if no index file in every folder inside backend
+
+Options -Indexes
+

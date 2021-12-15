@@ -1,0 +1,46 @@
+section.section-form {
+    form#product-form {
+        margin: 100px auto;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 400px;
+        .input-wrapper {
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            justify-content: space-between;
+            label {
+                font-size: 20px;
+                width: 30%;
+                text-align: center;
+            }
+        }
+        input , select {
+            height: 30px;
+            margin-bottom: 15px;
+            font-size: 20px;
+            padding-left: 20px;
+        }
+        input {
+            text-align: left;
+            width: 70%;
+        }
+        select {
+            height: 40px;
+            width: 74%;
+        }
+        .atrribute {
+            margin: 0;
+            &.wrapper__dvd {
+                display: none;
+            }
+            &.wrapper__furniture {
+                display: none;
+            }
+            &.wrapper__book {
+                display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+Options -Multiviews
+
+RewriteEngine On 
+# Cant request folder name
+RewriteCond %{REQUEST_FILENAME} !-d
+# Handle if theres same name file and folder
+RewriteCond %{REQUEST_FILENAME} !-f
+# Rewrite URL
+RewriteRule ^(.*)$ index.php?url=$1 [L]
