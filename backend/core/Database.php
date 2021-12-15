@@ -1,5 +1,5 @@
 <?php
-//  Class for Database wrapper
+// Database wrapper
 class Database {
 
     private $host = HOST;

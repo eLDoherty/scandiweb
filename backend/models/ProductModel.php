@@ -1,5 +1,7 @@
 <?php 
 
+// To handle all data on add product page
+
 class ProductModel {
 
     public function __construct() {
@@ -34,9 +36,6 @@ class ProductModel {
         $this->db->bind( 'size' , $size );
         $this->db->bind( 'weight' , $weight );
         $this->db->bind( 'dimension' , $dimension );
-
         $this->db->execute();
-        
-        // return $this->db->rowCount();
     }
 }

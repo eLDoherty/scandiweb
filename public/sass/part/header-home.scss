@@ -18,3 +18,13 @@ header.header-home {
         }
     }
 }
+
+@media (max-width: 767.98px) {
+    header.header-home {
+        border-bottom: 2px solid $primary-black;
+        height: 120px;
+        .navbar {
+            flex-direction: column;
+        }
+    }
+}

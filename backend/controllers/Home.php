@@ -8,7 +8,7 @@ class Home extends Controller {
         $this->view('home/index', $data);
         $this->view('template-part/footer');
     }
-
+    // Delete data with method from model
     public function delete() {
         $sku = $_POST['checkbox'];
         $this->model('HomeModel')->deleteData($sku);

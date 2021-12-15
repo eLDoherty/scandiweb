@@ -7,7 +7,8 @@ class AddProduct extends Controller {
         $this->view('addProduct/index');
         $this->view('template-part/footer');
     }
-    // Insert data
+    
+    // Insert data with method from model
     public function insert() {      
         $this->model('ProductModel')->insertData($_POST); 
         return header( 'Location: ' . BASEURL);

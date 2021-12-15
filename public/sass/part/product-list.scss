@@ -27,3 +27,27 @@ section.product {
         }
     }
 }
+
+@media (max-width: 767.98px) { 
+    section.product {
+        margin: 80px 0;
+        .product-list__wrapper {
+            display: flex;
+            flex-direction: column;
+            .card-product {
+                width: 100%;
+                .delete-checkbox {
+                    position: absolute;
+                    left: 20px;
+                    top: 20px;
+                    width: 20px;
+                    height: 20px;
+                }
+                .inner-card {
+                    padding: 40px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+ }

@@ -15,7 +15,7 @@
                     <h2>Product Add</h2>
                 </div>
                 <div class="navbar-right">
-                    <button class="save-button" type="submit" form="product-form">SAVE</button>
+                    <button class="save-button" type="submit" form="product_form">SAVE</button>
                     <button class="cancel-button" onclick="window.location.href='<?php echo BASEURL; ?>'">CANCEL</button>
                 </div>
             </nav>

@@ -8,9 +8,10 @@ class Route {
     protected $params = [];
 
     public function __construct() {
+
         $url = $this->parseURL();
-        
-    // Rewrite Controller name if exist in folder controller
+
+    // Rewrite the default Controller if exist in folder controller
         if(file_exists('../backend/controllers/' . $url[0] . '.php') ) {
             $this->controller = $url[0];
             unset($url[0]);
@@ -25,7 +26,7 @@ class Route {
                 unset($url[1]);
             }
         }
-    // Parameters
+    // Rest of array will be parameters
         if( !empty($url) ) {
             $this->params = array_values($url);
         }
@@ -33,7 +34,7 @@ class Route {
     // Run controller & method and send the parameters when exist
         call_user_func_array([$this->controller , $this->method] , $this->params);
     }
-
+    // Parsing url 
     public function parseURL() {
         if( isset($_GET['url']) ) {
             $url = rtrim($_GET['url'] , '/');

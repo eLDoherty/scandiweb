@@ -1,5 +1,6 @@
 <?php 
 
+// To handle all data on Home / index / product list
 
 class HomeModel {
 

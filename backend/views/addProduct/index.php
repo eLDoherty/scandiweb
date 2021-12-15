@@ -1,5 +1,5 @@
 <section class="section-form container">
-    <form action="<?php echo BASEURL; ?>/addproduct/insert" method="POST" id="product-form">
+    <form action="<?php echo BASEURL; ?>/addproduct/insert" method="POST" id="product_form">
         <div class="input-wrapper">
             <label for="sku">SKU</label>
             <input type="text" name="sku" id="sku" required>
